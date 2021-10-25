@@ -7,6 +7,10 @@ client.on("ready", () => {
 });
 
 client.on("messageCreate", (msg) => {
+    // ignore messages from bots
+    if (msg.author.bot) return;
+
+    
     if (msg.content === 'ping') {
         msg.reply('pong');
     }
