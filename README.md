@@ -4,4 +4,13 @@
 # Potential Features
     - Poll
     - MadLib
-        - AI generated madlibs
+        - AI generated
+    - Music
+        - Soundcloud
+        - YouTube
+    - League Ultimate Bravery
+    - Meme Generator
+
+# TODO
+- command folder
+    - separate files for each command with description
