@@ -12,7 +12,7 @@ var options = {
 	"path": "/meme?top=Top%20Text&bottom=Bottom%20Text&meme=Condescending-Wonka&font_size=50&font=Impact",
 	"headers": {
 		"x-rapidapi-host": "ronreiter-meme-generator.p.rapidapi.com",
-		"x-rapidapi-key": "3360e45938mshf84277320f5c9e2p1a3695jsnfa1dcff0a9d6",
+		"x-rapidapi-key": process.env.KEY,
 		"useQueryString": true
 	}
 };
@@ -56,6 +56,9 @@ client.on("messageCreate", async (msg) => {
             break;
         case 'poll':
             msg.reply('ass');
+            break;
+        case 'horny':
+            msg.reply("ask Justin");
             break;
     }
 
